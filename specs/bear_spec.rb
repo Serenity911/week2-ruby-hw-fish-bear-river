@@ -30,11 +30,7 @@ class TestBear < Minitest::Test
     assert_equal(0, @bear.food_counter)
   end
 
-
   def test_bear_can_roar
-    assert_equal("Roar Roar", @bear.can_roar)
+    assert_equal("Roar Roar", @bear.get_roar)
   end
-
-
-
 end
